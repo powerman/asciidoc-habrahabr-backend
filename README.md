@@ -5,7 +5,7 @@ An [AsciiDoc](http://asciidoc.org/) plugin for generating
 source.
 
 Для установки плагина скачайте
-[habrahabr.zip](https://github.com/downloads/powerman/asciidoc-habrahabr-backend/habrahabr.zip)
+[habrahabr.zip](https://github.com/powerman/asciidoc-habrahabr-backend/releases/download/0.1.0/habrahabr.zip)
 и установите его через `asciidoc`:
 
   asciidoc --backend install habrahabr.zip
