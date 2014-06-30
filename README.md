@@ -12,6 +12,13 @@ source.
 asciidoc --backend install habrahabr.zip
 ```
 
+После этого можно будет очень просто конвертировать статьи в формате
+AsciiDoc в HTML используемый для публикации на хабре:
+
+```
+asciidoc -b habrahabr my_article.txt   # создаст my_article.html
+```
+
 HTML полученный после конвертации backend-ом *habrahabr* можно сразу
 вставлять в поле для ввода текста новой статьи на сайте, но при этом
 необходимо включить:
